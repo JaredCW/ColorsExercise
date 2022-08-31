@@ -1,40 +1,50 @@
 /* Attempted to recreate complementary colors with all font/BG colors. All requested ways to write colors should be included. */
 h1{
     color: green;
+    /* Bonus 1 */
     background-color: red;
 }
 h2{
     /* Reversed Hex & Hex Shorthand for H2/H3 */
     color: #00F;
+    /* Bonus 1 */
     background-color: #FFA500;
 }
 h3{
     color: #8F00FF;
+    /* Bonus 1 */
     background-color: #FF0;
 }
 h4{
     /* Reversed Hex w/ Transparency & Hex Shorthand w/ Transparency for H4/H5 */
     color: #F008;
+    /* Bonus 1 */
     background-color: #008000;
 }
 h5{
     color: #FFA50088;
+    /* Bonus 1 */
     background-color: #00F;
 }
 h6{
     color: rgb(255, 174, 66);
+    /* Bonus 1 */
     background-color: rgb(75, 0, 130)
 }
 p{
     color: rgba(255, 255, 0, 0.5);
+    /* Bonus 1 */
     background-color: rgb(143, 0, 255);
 }
+/* Bonus 3 */
 ol li[id="one"]{
     color: hotpink;
 }
-ol li[id="three"]{
-    color: peachpuff;
+/* Bonus 4 */
+#three{
+    background-color: peachpuff;
 }
+/* Bonus 5 */
 .greenBorder{
     border: 5px solid green;
 }
